@@ -1,3 +1,16 @@
+It's a react project , I also used Json Server To generate Fake Data .
+
+Start JSON Server
+
+json-server --watch db.json
+
+Now if you go to http://localhost:3000/posts/1, you'll get
+
+{ "id": 1, "title": "json-server", "author": "typicode" }
+
+__________________
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

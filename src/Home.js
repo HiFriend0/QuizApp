@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function NavTabs() {
+function NavTabs(props) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -89,7 +89,7 @@ export default function NavTabs() {
       </TabPanel>
       
       <TabPanel value={value} index={1}>
-        <UpdateQuiz></UpdateQuiz>
+        <UpdateQuiz  quiz_data_global={props.quiz_data_global} ></UpdateQuiz>
       </TabPanel>
 
       <TabPanel value={value} index={2}>
@@ -98,3 +98,5 @@ export default function NavTabs() {
     </div>
   );
 }
+
+export  default NavTabs

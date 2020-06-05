@@ -1,0 +1,22 @@
+{
+  "quiz_questions": [
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 2,
+      "instruction_text": "creator of google ?",
+      "answer_options": ["Larry page & Sergey Brin", "Jeff Bezos", "satya nadella", "bill gates"],
+      "answer": "Larry page & Sergey Brin"
+    },
+    {
+      "id": 3,
+      "instruction_text": "how old is nourddine?",
+      "answer_options": ["12", "13", "21", "14"],
+      "answer": "21"
+    }
+  ]
+}
