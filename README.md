@@ -1,3 +1,7 @@
+You can Preview the app online here : https://hifriend0.github.io/QuizApp/
+
+-----------------------------------
+
 It's a react project , I also used Json Server To generate Fake Data .
 
 Start JSON Server
